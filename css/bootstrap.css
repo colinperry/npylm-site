@@ -6757,4 +6757,20 @@ button.close {
     display: none !important;
   }
 }
+header{
+  // background: url("../img/header-background.jpg");
+  // background-color: black;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.site-header{
+  // margin-top: 10px;
+  // margin-bottom: 10px;
+}
+.site-header img{
+  padding-right: 8px;
+  padding-left: 8px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
