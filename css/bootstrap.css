@@ -4356,15 +4356,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
-    margin: 0;
+    // float: left;
   }
   .navbar-nav > li {
-    float: left;
+    display: inline-block;
+
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    text-align: justify;
   }
 }
 .navbar-form {
