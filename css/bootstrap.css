@@ -4496,8 +4496,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background: url("../img/header-background.jpg");
+  border-radius: 0;
+  border: none;
+  font-family: 'Passion One', cursive;
+  font-size: 2.8em;
+  -webkit-text-stroke: 1px #d42b24;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4511,19 +4517,25 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #fee06a;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #d42b24;
+  -webkit-text-stroke: 1px #fee06a;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
+  color: #d42b24;
+  -webkit-text-stroke: 1px #fee06a;
+  background-color: transparent;
 }
+.navbar-default .navbar-nav > .active > a:hover{
+  color: #fee06a;
+  -webkit-text-stroke: 1px #d42b24;
+  background-color: transparent;
+}    
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
@@ -6757,20 +6769,39 @@ button.close {
     display: none !important;
   }
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 header{
-  // background: url("../img/header-background.jpg");
-  // background-color: black;
+  background: url("../img/header-background.jpg");
+  background-color: black;
+}
+.header-divider{
+  border-bottom: 12px solid #fee06a;
 }
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
 }
 .site-header{
-  // margin-top: 10px;
-  // margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .site-header img{
   padding-right: 8px;
   padding-left: 8px;
 }
+.navbar-collapse{
+  text-align: center;
+  padding: 0;
+  border: none;
+  color: red;
+  // background-color: red;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
