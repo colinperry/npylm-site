@@ -4362,6 +4362,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
+    background-color: #88cff3;
+    margin-top: 0;
+    margin-bottom: 0;
     // float: left;
   }
   .navbar-nav > li {
@@ -6826,12 +6829,74 @@ header{
   font-size: 2.8em;
   -webkit-text-stroke: 1px #d42b24;
 }
+.animate-flashing{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+@-webkit-keyframes color-change {
+    0% { color: #fee06a; }
+    93% { color: #fee06a; }
+    // 50% { color: #d42b24; }
+    100% { color: #d42b24; }
+}
+@-moz-keyframes color-change {
+    0% { color: #fee06a; }
+    93% { color: #fee06a; }
+    // 50% { color: #d42b24; }
+    100% { color: #d42b24; }
+}
+@-ms-keyframes color-change {
+    0% { color: #fee06a; }
+    93% { color: #fee06a; }
+    // 50% { color: #d42b24; }
+    100% { color: #d42b24; }
+}
+@-o-keyframes color-change {
+    0% { color: #fee06a; }
+    93% { color: #fee06a; }
+    // 50% { color: #d42b24; }
+    100% { color: #d42b24; }
+}
+@keyframes color-change {
+    0% { color: #fee06a; }
+    93% { color: #fee06a; }
+    // 50% { color: #d42b24; }
+    100% { color: #d42b24; }
+}
 .content-container{
+  border: 5px solid #fee06a;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #88cff3;
+  // margin-left: 40px;
+  // margin-right: 40px;
+}
+.sidebar-container{
   border: 5px solid #fee06a;
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
-  // background-color: white;
+  background-color: #88cff3;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+}
+.sidebar-container h1{
+  margin-top: 0;
+}
+.album-cover{
+  border: 2px solid #fee06a;
+}
+.button-area{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #fee06a;
+  border-radius: 5px;
+  background-color: #88cff3;
 }
 .dropdown-menu{
   border: 5px solid #fee06a;
@@ -6842,7 +6907,7 @@ header{
   padding-top: 0;
   padding-left: 0;
   padding-right: 0;
-  background-color: white !important;
+  background-color: #88cff3 !important;
 }
 .dropdown-menu li a{
   color: #fee06a;
