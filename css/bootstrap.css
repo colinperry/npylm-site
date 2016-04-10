@@ -4526,6 +4526,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: #fee06a;
+  -webkit-text-stroke: 1px #d42b24;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -6833,7 +6834,7 @@ header{
   // background-color: white;
 }
 .dropdown-menu{
-  border: 5px solid black;
+  border: 5px solid #fee06a;
   border-radius: 5px;
   text-align: left;
   box-shadow: none;
@@ -6841,6 +6842,7 @@ header{
   padding-top: 0;
   padding-left: 0;
   padding-right: 0;
+  background-color: white !important;
 }
 .dropdown-menu li a{
   color: #fee06a;
@@ -6862,6 +6864,10 @@ header{
   box-shadow: none !important;
   padding-top: 0;
   padding-bottom: 0;
+}
+.btn-lg h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .btn-lg h1:hover{
   color: #d42b24;
