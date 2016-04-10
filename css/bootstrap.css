@@ -4505,6 +4505,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -webkit-text-stroke: 1px #d42b24;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 0;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6783,7 +6784,11 @@ header{
   background-color: black;
 }
 .header-divider{
-  border-bottom: 12px solid #fee06a;
+  border-bottom: 8px solid #fee06a;
+  background-color: #d42b24;
+}
+.header-divider-secondary{
+  border-top: 1px solid #d42b24;
 }
 .container-fluid{
   padding-left: 0;
@@ -6804,5 +6809,14 @@ header{
   color: red;
   // background-color: red;
 }
-
+.main-content-area{
+  text-align: center;
+  background: url("../img/main-background.jpg");
+}
+.main-content-area h1{
+  font-family: 'Passion One', cursive;
+  color: #fee06a;
+  font-size: 2.8em;
+  -webkit-text-stroke: 1px #d42b24;
+}
 /*# sourceMappingURL=bootstrap.css.map */
