@@ -6872,8 +6872,10 @@ header{
   // padding: 30px;
   margin-top: 20px;
   background-color: #88cff3;
-  margin-left: 5%;
+  // margin-left: 8%;
+  // margin-right: 8%;
   // margin-right: 5%;
+  // max-width: 755px;
 }
 .sidebar-container{
   border: 10px solid #fee06a;
@@ -6882,8 +6884,8 @@ header{
   padding-top: 10px;
   margin-top: 20px;
   background-color: #88cff3;
-  margin-left: 40px;
-  margin-right: 40px;
+  // margin-left: 40px;
+  // margin-right: 40px;
   color: white;
 }
 .sidebar-container h1{
@@ -6892,20 +6894,10 @@ header{
 .sidebar-video{
   // border: 5px solid red;
 }
-.album-cover{
-  border-bottom: 10px solid #fee06a;
-}
-.album-cover-secondary{
-  border-top: 10px solid #fee06a;
-  border-bottom: 10px solid #fee06a;
-}
-// .button-area{
-//   margin-top: 10px;
-//   margin-bottom: 10px;
-//   border: 5px solid #fee06a;
-//   border-radius: 5px;
-//   background-color: #88cff3;
-// }
+.button-area{
+    border-top: 10px solid #fee06a;
+    border-bottom: 10px solid #fee06a;
+  }
 .dropdown-menu{
   border: 10px solid #fee06a;
   border-radius: 5px;
@@ -6954,7 +6946,6 @@ header{
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -6963,5 +6954,29 @@ header{
     left: 0;
     width: 100%;
     height: 100%;
+}
+@media (max-width: 767px){
+  .content-container{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    border: 0;
+    padding-right: 0;
+  }
+  .button-area{
+    border-top: 10px solid #fee06a;
+    border-bottom: 10px solid #fee06a;
+  }
+  .sidebar-container{
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .content-container{
+    margin-left: 5%;
+  }
+  .sidebar-container{
+    margin-right: 5%;
+  }
 }
 /*# sourceMappingURL=bootstrap.css.map */
