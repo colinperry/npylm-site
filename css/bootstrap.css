@@ -4369,7 +4369,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav > li {
     display: inline-block;
-
   }
   .navbar-nav > li > a {
     // padding-top: 10px;
@@ -4555,14 +4554,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border: 2px solid #d42b24;
+  background-color: #fee06a;
+  border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  // background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #d42b24;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -6819,6 +6820,27 @@ header{
   color: red;
   // background-color: red;
 }
+.icon-container-desktop{
+  border: 2px solid black;
+}
+.icon-container-mobile{
+  display: inline;
+  border: 2px solid black;
+  width: 250px;
+}
+.icon{
+  display: inline;
+}
+@media (max-width: 767px){
+  .icon-container-desktop{
+    display: none;
+  }
+}
+@media (min-width: 768px){
+  .icon-container-mobile{
+    display: none;
+  }
+}
 .main-content-area{
   text-align: center;
   background: url("../img/main-background.jpg");
@@ -6934,6 +6956,18 @@ header{
   margin-top: 5px;
   margin-bottom: 5px;
 }
+@media (max-width: 820px){
+  .btn-lg h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2.5em;
+  }
+}
+@media (max-width: 375px){
+  .btn-lg h1{
+    font-size: 2em;
+  }
+}
 .btn-lg h1:hover{
   color: #d42b24;
   -webkit-text-stroke: 1px #fee06a;
@@ -6956,6 +6990,9 @@ header{
     height: 100%;
 }
 @media (max-width: 767px){
+  .icon-container-desktop{
+    display: none;
+  }
   .content-container{
     margin-left: 0;
     margin-right: 0;
@@ -6978,5 +7015,21 @@ header{
   .sidebar-container{
     margin-right: 5%;
   }
+  .navbar-nav {
+    background-color: #88cff3;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .navbar-nav > li {
+    display: inline-block;
+
+  }
+  .navbar-nav > li > a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: .8em;
+    text-align: justify;
+  }
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
