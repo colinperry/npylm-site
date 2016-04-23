@@ -4518,7 +4518,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 0;
   border: none;
   font-family: 'Passion One', cursive;
-  font-size: 2.75em;
+  font-size: 2.7em;
   -webkit-text-stroke: 1px #d42b24;
   padding-left: 10px;
   padding-right: 10px;
@@ -7414,7 +7414,10 @@ button.navbar-toggle{
 }
 @media (min-width: 768px) and (max-width: 772px){
   .icon-overlay{
-    margin-top: -12px;
+    margin-top: -11px;
+  }
+  .navbar-default{
+
   }
 }
 // @media (max-width: 768px){
