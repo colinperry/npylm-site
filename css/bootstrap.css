@@ -4362,18 +4362,27 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    background-color: #88cff3;
+    // background-color: #88cff3;
+    width: 100%;
+    // height: 100%;
     margin-top: 0;
     margin-bottom: 0;
-    // float: left;
+    margin-right: 0;
+    margin-left: 0;
+    // text-align: center;
+    // text-align: -webkit-center;
+    // position: relative;
+    // display: inline-block;
+    // list-style: none;
   }
   .navbar-nav > li {
     display: inline-block;
+    text-align: -webkit-center;
   }
   .navbar-nav > li > a {
-    // padding-top: 10px;
-    // padding-bottom: 10px;
-    text-align: justify;
+    display: inline-block;
+    text-align: center;
+    text-align: -webkit-center;
   }
 }
 .navbar-form {
@@ -4505,15 +4514,24 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background: url("../img/header-background.jpg");
+  background-color: #88cff3;
   border-radius: 0;
   border: none;
   font-family: 'Passion One', cursive;
-  font-size: 2.8em;
+  font-size: 2.75em;
   -webkit-text-stroke: 1px #d42b24;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+  // display: inline-block;
+  // list-style: none;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4527,8 +4545,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
+  // list-style-type: none;
+  // display: inline-block;
+  // text-align: left;
   color: #fee06a;
   -webkit-text-stroke: 1px #d42b24;
+
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -6832,8 +6854,12 @@ header{
 }
 .icon-container-mobile{
   display: inline-block;
+  // max-width: 200px;
   // border: 2px solid black;
-  margin-left: 15px;
+  margin-right: 60px;
+}
+button.navbar-toggle{
+  margin-top: -60px;
 }
 .icon-container-mobile a{
   text-decoration: none;
@@ -6930,7 +6956,7 @@ header{
     width: 30px;
     padding: 0;
     margin-right: 12px;
-    margin-top: 15px;
+    margin-top: 14px;
     position: absolute;
   }
 }
@@ -6955,7 +6981,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 14px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -6980,7 +7006,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 14px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -7005,7 +7031,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 17px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -7030,7 +7056,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 31px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -7055,7 +7081,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 42px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -7080,7 +7106,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 46px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -7105,7 +7131,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 46px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -7130,7 +7156,7 @@ header{
     width: 35px;
     padding: 0;
     margin-right: 54px;
-    margin-top: 12px;
+    margin-top: 11px;
     position: absolute;
   }
 }
@@ -7378,6 +7404,16 @@ header{
     padding-right: 8px;
     font-size: .8em;
     text-align: justify;
+  }
+}
+@media (min-width: 768px) and (max-width: 772px){
+  .icon-overlay{
+    margin-top: -12px;
+  }
+}
+@media (max-width: 768px){
+  .album-cover{
+    margin-top: -1px;
   }
 }
 
