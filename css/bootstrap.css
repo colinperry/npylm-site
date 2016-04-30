@@ -7438,5 +7438,33 @@ button.navbar-toggle{
     border: 1px solid #fee06a;
     // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+#mc-embedded-subscribe{
+  border: none;
+  background-color: #88cff3;
+  margin-top: 10px;
+  font-size: 2.75em;
+  color: #fee06a;
+  font-family: 'Passion One', cursive;
+  -webkit-text-stroke: 1px #d42b24;
+}
+#mc-embedded-subscribe:hover{
+  color: #d42b24;
+  -webkit-text-stroke: 1px #fee06a;
+}
+#mce-EMAIL{
+  border: 5px solid #fee06a;
+  border-radius: 5px;
+  background-color: #88cff3;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  height: 50px;
+  width: 90%;
+  color: #fee06a;
+  font-size: 2em;
+  font-family: 'Passion One', cursive;
+  -webkit-text-stroke: 1px #d42b24;
+  outline: none;
+  text-align: center;
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
