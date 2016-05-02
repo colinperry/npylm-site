@@ -7469,7 +7469,9 @@ button.navbar-toggle{
 .about-content{
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 20px;
   font-family: 'Passion One', cursive;
+  margin-top: -1px;
 }
 .about-content p{
   font-size: 2em;
