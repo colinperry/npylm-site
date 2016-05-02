@@ -7466,5 +7466,22 @@ button.navbar-toggle{
   outline: none;
   text-align: center;
 }
+.about-content{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Passion One', cursive;
+}
+.about-content p{
+  font-size: 2em;
+}
+.about-content a{
+  text-decoration: none;
+  color: #fee06a;
+  -webkit-text-stroke: 1px #d42b24;
+}
+.about-content a:hover{
+  color: #d42b24;
+  -webkit-text-stroke: 1px #fee06a;
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
