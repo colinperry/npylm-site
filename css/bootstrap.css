@@ -7268,6 +7268,7 @@ button.navbar-toggle{
   border-radius: 10px;
   // padding: 30px;
   margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #88cff3;
   // margin-left: 8%;
   // margin-right: 8%;
@@ -7294,6 +7295,7 @@ button.navbar-toggle{
 .button-area{
     border-top: 10px solid #fee06a;
     border-bottom: 10px solid #fee06a;
+    background-color: #88cff3;
   }
 .dropdown-menu{
   border: 10px solid #fee06a;
@@ -7374,6 +7376,7 @@ button.navbar-toggle{
     margin-top: 0;
     border: 0;
     padding-right: 0;
+    background: url("../img/main-background.jpg"); 
   }
   .button-area{
     border-top: 10px solid #fee06a;
@@ -7466,24 +7469,97 @@ button.navbar-toggle{
   outline: none;
   text-align: center;
 }
-.about-content{
+.text-content{
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 20px;
+  padding-top: 5px;
   font-family: 'Passion One', cursive;
   margin-top: -1px;
 }
-.about-content p{
-  font-size: 2em;
+.text-content p{
+  font-size: 1.7em;
 }
-.about-content a{
+.text-content a{
+  text-decoration: none;
+  color: #fee06a;
+  -webkit-text-stroke: 1px #d42b24;
+  font-size: 1em;
+}
+.text-content a:hover{
+  color: #d42b24;
+  -webkit-text-stroke: 1px #fee06a;
+}
+.photos-container{
+  margin-top: -1px;
+}
+.photo-content-container{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.video-content-container{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (max-width: 767px){
+  .video-content-container{
+  margin-top: -1px;
+  padding-top: 15px;
+  border-radius: 0px;
+}
+}
+#final-content{
+  margin-bottom: 15px;
+  border-bottom: none;
+}
+#final-button-content{
+  border-bottom: none;
+}
+@media (max-width: 767px){
+  #final-button-content{
+    border-bottom: 10px solid #fee06a;
+  }
+  .content-container{
+    margin-bottom: 0;
+  }
+}
+.homepage-content{
+  font-family: 'Passion One', cursive;
+  font-size: 2em;
+  padding-top: 20px;
+  margin-top: -1px;
+  // color: red;
+}
+.homepage-content a{
   text-decoration: none;
   color: #fee06a;
   -webkit-text-stroke: 1px #d42b24;
 }
-.about-content a:hover{
+.homepage-content a:hover{
   color: #d42b24;
   -webkit-text-stroke: 1px #fee06a;
 }
-
+.tumblr_posts{
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+}
+.tmblr-iframe--controls {
+display: none;
+}
+.tour-widget-container{
+  padding: 15px;
+}
+footer{
+  height: 180px;
+  background: url("../img/main-background.jpg");
+  text-align: center;
+}
+footer p{
+  font-family: 'Passion One', cursive;
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 90px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
