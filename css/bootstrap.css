@@ -7473,21 +7473,25 @@ button.navbar-toggle{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5px;
-  font-family: 'Passion One', cursive;
+  font-family: 'Arimo', sans-serif;
   margin-top: -1px;
 }
 .text-content p{
-  font-size: 1.7em;
+  font-size: 1.25em;
 }
 .text-content a{
   text-decoration: none;
   color: #fee06a;
   -webkit-text-stroke: 1px #d42b24;
-  font-size: 1em;
+  font-size: 2em;
+  font-family: 'Passion One', cursive;
 }
 .text-content a:hover{
   color: #d42b24;
   -webkit-text-stroke: 1px #fee06a;
+}
+.press-quote{
+  font-size: 1.2em;
 }
 .photos-container{
   margin-top: -1px;
@@ -7496,11 +7500,15 @@ button.navbar-toggle{
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
+  border: 10px solid #fee06a;
+  border-radius: 5px;
 }
 .video-content-container{
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
+  border: 10px solid #fee06a;
+  border-radius: 5px;
 }
 @media (max-width: 767px){
   .video-content-container{
@@ -7516,6 +7524,12 @@ button.navbar-toggle{
 #final-button-content{
   border-bottom: none;
 }
+#final-content-photo{
+  margin-bottom: 0;
+}
+#final-content-video{
+  margin-bottom: 0;
+}
 @media (max-width: 767px){
   #final-button-content{
     border-bottom: 10px solid #fee06a;
@@ -7525,31 +7539,65 @@ button.navbar-toggle{
   }
 }
 .homepage-content{
-  font-family: 'Passion One', cursive;
-  font-size: 2em;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.6em;
   padding-top: 20px;
   margin-top: -1px;
+  font-weight: 400;
   // color: red;
 }
 .homepage-content a{
+  font-family: 'Passion One', cursive;
+  font-size: 1.3em;
   text-decoration: none;
   color: #fee06a;
   -webkit-text-stroke: 1px #d42b24;
+  font-weight: 400;
 }
 .homepage-content a:hover{
   color: #d42b24;
   -webkit-text-stroke: 1px #fee06a;
+}
+@media (max-width: 676px){
+  .homepage-content{
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2em;
+  padding-top: 20px;
+  margin-top: -1px;
+  font-weight: 700;
+  // color: red;
+}
+.homepage-content a{
+  font-family: 'Passion One', cursive;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fee06a;
+  -webkit-text-stroke: 1px #d42b24;
+  font-weight: 300;
+}
+.homepage-content a:hover{
+  color: #d42b24;
+  -webkit-text-stroke: 1px #fee06a;
+}
 }
 .tumblr_posts{
   padding-left: 20px;
   padding-right: 20px;
   list-style: none;
 }
+.tumblr_posts img{
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.tumblr_photo_post{
+  margin: 0;
+}
 .tmblr-iframe--controls {
 display: none;
 }
 .tour-widget-container{
   padding: 15px;
+  height: 700px;
 }
 footer{
   height: 180px;
@@ -7557,9 +7605,34 @@ footer{
   text-align: center;
 }
 footer p{
-  font-family: 'Passion One', cursive;
-  font-size: 2em;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.3em;
   margin-top: 0;
   padding-top: 90px;
+}
+@media (max-width: 676px){
+footer p{
+  font-family: 'Arimo', sans-serif;
+  font-size: .85em;
+  margin-top: 0;
+  padding-top: 90px;
+}
+}
+.button-area h3{
+  font-family: 'Arimo', sans-serif;
+  font-style: italic;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.non-italic{
+  font-style: normal;
+  font-weight: 400;
+}
+.video-content-description h3{
+  font-family: 'Arimo', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-weight: 400px;
+
 }
 /*# sourceMappingURL=bootstrap.css.map */
