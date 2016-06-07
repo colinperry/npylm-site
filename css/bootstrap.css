@@ -7665,9 +7665,12 @@ footer p{
   font-size: 1.2em;
 }
 }
-.index-container{
+@media (max-width: 767px){
+  .index-container{
   margin-top: -43px;
+  }
 }
+
 .bandsintown-widget{
   margin: 20px;
 }
