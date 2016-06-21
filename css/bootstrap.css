@@ -7433,16 +7433,16 @@ button.navbar-toggle{
   .navbar-default{
   }
 }
-::-webkit-scrollbar {
-    width: 8px;
-}
-::-webkit-scrollbar-track {
-    background-color: #fee06a;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #d42b24;
-    border: 1px solid #fee06a;
-}
+// ::-webkit-scrollbar {
+//     width: 8px;
+// }
+// ::-webkit-scrollbar-track {
+//     background-color: #fee06a;
+// }
+// ::-webkit-scrollbar-thumb {
+//     background-color: #d42b24;
+//     border: 1px solid #fee06a;
+// }
 #mc-embedded-subscribe{
   border: none;
   background-color: #88cff3;
@@ -7686,6 +7686,9 @@ footer p{
   display: none;
 }
 .bit-rsvp{
+  display: none;
+}
+.bit-track-artist-header{
   display: none;
 }
 @media (max-width: 767px){
